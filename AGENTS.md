@@ -43,5 +43,5 @@ Follow the example set in `decks/example.md`.
 - you MUST limit the content on a slide to three short sentences and a heading. The sentences need to be separate
   bullets. The bullets go into a `<v-clicks>` animation region
 - ALWAYS add an image in the initial slide using SVG. Create a simple SVG icon, save it to the `decks/public` folder. Use the frontmatter `background: /filename.svg` syntax for that. The `public` folder is the root of the started slidev web project.
-- the command to run the presentation is `npx slidev FILENAME --open`
+- the command to run the presentation is `pnpm slidev FILENAME --open`
 - do not run the presentation by yourself, output it to the user instead.
